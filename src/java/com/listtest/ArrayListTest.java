@@ -48,7 +48,7 @@ public class ArrayListTest {
         //    elementData = c.toArray();
         //    如果不是空数组，将数组长度赋值给size,如果集合转换为的数组是Object数组，将转换后的数组拷贝给elementData
         //    TODO:？？？？为什么要拷贝一份，而不用直接转化后的数组？？？
-        //    上述问题，见ArraysTest中测试Arrays.copyOf是浅拷贝，对于基本数据类型是值拷贝，引用数据类型是引用拷贝
+        //    NOTICE:上述问题，见ArraysTest中测试Arrays.copyOf是浅拷贝，对于基本数据类型是值拷贝，引用数据类型是引用拷贝
         //    if ((size = elementData.length) != 0) {
         //        // c.toArray might (incorrectly) not return Object[] (see 6260652)
         //        if (elementData.getClass() != Object[].class)

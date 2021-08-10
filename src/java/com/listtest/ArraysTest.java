@@ -25,6 +25,17 @@ public class ArraysTest {
         //当且仅当指定的长度大于原始数组的长度时，这样的索引才会存在。
         //结果数组是类newType的。
 
+        //NOTICE: System.arraycopy 浅拷贝 基本数据类型值拷贝，引用数据类型引用拷贝
+        //public static <T,U> T[] copyOf(U[] original, int newLength, Class<? extends T[]> newType) {
+        //    @SuppressWarnings("unchecked")
+        //    T[] copy = ((Object)newType == (Object)Object[].class)
+        //            ? (T[]) new Object[newLength]
+        //            : (T[]) Array.newInstance(newType.getComponentType(), newLength);
+        //    System.arraycopy(original, 0, copy, 0,
+        //            Math.min(original.length, newLength));
+        //    return copy;
+        //}
+
 
         List stringList = new ArrayList<String>(Arrays.asList("a", "b", "c"));
         List copyList = new ArrayList<String>(stringList);
