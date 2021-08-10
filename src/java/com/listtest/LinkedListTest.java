@@ -1,4 +1,4 @@
-package java.com.listtest;
+package com.listtest;
 
 /**
  * @ClassName: LinkedListTest
