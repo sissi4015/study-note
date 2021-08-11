@@ -1,13 +1,12 @@
 package com.listtest;
 
 import java.util.ArrayList;
-import java.util.ConcurrentModificationException;
 import java.util.Iterator;
 import java.util.List;
 
 /**
  * @ClassName: ArrayListTest
- * @Description: TODO
+ * @Description: 通过分析ArrayList源码，深入理解ArrayList
  * @Author: Sissi
  * @Date: 2021/8/9 1:16
  * @Version: 1.0
