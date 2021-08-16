@@ -158,6 +158,15 @@ public class ArrayListTest {
         // c.将index+1以及之后的元素向后移动一位，使用System.arraycopy方法
         // d.赋值index位置元素
         l1.add(1, "2");
+        //public void add(int index, E element) {
+        //    rangeCheckForAdd(index);
+        //
+        //    ensureCapacityInternal(size + 1);  // Increments modCount!!
+        //    System.arraycopy(elementData, index, elementData, index + 1,
+        //            size - index);
+        //    elementData[index] = element;
+        //    size++;
+        //}
 
         //PART3:删除
         //------------------------------------------------------------------------------
